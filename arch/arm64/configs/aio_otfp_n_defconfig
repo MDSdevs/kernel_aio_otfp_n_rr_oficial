@@ -565,3 +565,6 @@ CONFIG_MTK_DVFS_CONTROL=y
  
  #Extra
  CONFIG_CPU_FREQ_GOV_RENICE=y
+ 
+#Pocket mode (avoid dt2w to be active while proximity sensor is triggered)
+ CONFIG_POCKETMOD=y
